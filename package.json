@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.4.9"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.9"
   },
   "dependencies": {
-    "@maptiler/sdk": "^1.1.2"
+    "@maptiler/sdk": "^2.0.1"
   }
 }

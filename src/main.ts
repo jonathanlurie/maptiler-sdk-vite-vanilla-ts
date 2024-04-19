@@ -7,7 +7,7 @@ function init() {
 
   if (!container) throw new Error('There is no div with the id: "map" ');
 
-  config.apiKey = 'zouXV9mS8BES4cIKYtov';
+  config.apiKey = 'YOUR API KEY';
   const map = new Map({ container });
 
   console.log('The map instance', map);
