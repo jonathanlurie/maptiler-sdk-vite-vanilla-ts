@@ -4,15 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "biome": "biome check --max-diagnostics=1000",
+    "biome:fix": "biome check --max-diagnostics=1000 --write",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11"
+    "@biomejs/biome": "^1.8.3",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
   },
   "dependencies": {
-    "@maptiler/sdk": "^2.0.3"
+    "@maptiler/sdk": "^2.2.2"
   }
 }
