@@ -11,11 +11,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.0"
+    "@biomejs/biome": "^1.9.2",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
   },
   "dependencies": {
-    "@maptiler/sdk": "^2.2.2"
+    "@maptiler/sdk": "^2.3.0"
   }
 }
